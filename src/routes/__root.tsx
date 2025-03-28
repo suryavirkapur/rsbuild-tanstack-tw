@@ -12,7 +12,7 @@ export const Route = createRootRoute({
   }),
   component: () => (
     <>
-      <div className="flex gap-2 justify-center items-center p-2">
+      <div className="flex gap-2 justify-center items-center p-2 bg-gray-900 text-white border-b-2">
         <h1 className="font-bold text-xl">
           Rsbuild + Tailwind v4 + TanStack Router
         </h1>
@@ -25,7 +25,6 @@ export const Route = createRootRoute({
           </Link>
         </div>
       </div>
-      <hr />
       <Outlet />
       <TanStackRouterDevtools />
     </>
