@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3701,
   },
   html: {
-    title: "React + Tanstack Router + Tailwind v4"
+    title: "Rsbuild + Tanstack Router + Tailwind v4"
   },
   tools: {
     rspack: {
