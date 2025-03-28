@@ -1,6 +1,6 @@
-import { defineConfig } from '@rsbuild/core'
-import { pluginReact } from '@rsbuild/plugin-react'
-import { TanStackRouterRspack } from '@tanstack/router-plugin/rspack'
+import { defineConfig } from "@rsbuild/core";
+import { pluginReact } from "@rsbuild/plugin-react";
+import { TanStackRouterRspack } from "@tanstack/router-plugin/rspack";
 
 export default defineConfig({
   plugins: [pluginReact()],
@@ -8,13 +8,13 @@ export default defineConfig({
     port: 3701,
   },
   html: {
-    title: "Rsbuild + Tanstack Router + Tailwind v4"
+    title: "Rsbuild + Tanstack Router + Tailwind v4",
   },
   tools: {
     rspack: {
       plugins: [
-        TanStackRouterRspack({ target: 'react', autoCodeSplitting: true }),
+        TanStackRouterRspack({ target: "react", autoCodeSplitting: true }),
       ],
     },
   },
-})
+});
