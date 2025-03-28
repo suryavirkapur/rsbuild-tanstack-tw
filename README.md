@@ -1,28 +1,30 @@
-# Rsbuild project
+# Rsbuild + Tailwind v4 + Tanstack Router Project
 
-## Setup
+## Setup and Getting Started
 
-Install the dependencies:
+### Setup
+
+To install the dependencies:
 
 ```bash
 pnpm install
 ```
 
-## Get started
+### Get started
 
-Start the dev server:
+To start the dev server:
 
 ```bash
 pnpm dev
 ```
 
-Build the app for production:
+To build the app for production:
 
 ```bash
 pnpm build
 ```
 
-Preview the production build locally:
+To preview the production build locally:
 
 ```bash
 pnpm preview
